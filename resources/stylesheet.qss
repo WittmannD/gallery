@@ -1,0 +1,113 @@
+/*
+ * General
+ */
+
+* {
+    font-family: Roboto, serif;
+    font-size: 9pt;
+}
+
+QScrollArea {
+    border: none;
+}
+
+/*
+ * MainWindow
+ */
+
+QMainWindow {
+
+}
+
+/*
+ * QToolTip styling
+ */
+
+QToolTip {
+    background-color: rgb(15, 15, 15);
+    border-radius: 3px;
+    font-size: 8pt;
+    color: #cccccc;
+}
+
+/*
+ * QToolBar styling
+ */
+QToolBar {
+    spacing: 0;
+    border: none;
+}
+
+QToolBar QToolButton {
+    border-radius: none;
+    padding: 15px;
+}
+
+QToolBar QToolButton:hover {
+    background-color: rgb(142, 45, 197);
+    color: rgb(15, 15, 15)
+}
+
+QToolBar QToolButton#Album {
+    padding: 15px 5px 15px 5px;
+    background-color: indianred;
+    color: #fdfdfd;
+}
+
+/*
+ * QScrollBar styling
+ */
+
+QScrollBar {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 8px;
+    margin: 5px 0 5px 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+QScrollBar::sub-line {
+    border: none;
+    height: 20px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line {
+    border: none;
+    height: 20px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::handle {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: lightsalmon;
+}
+
+/*
+ * ImageThumbnailTile
+ */
+
+ImageThumbnail:hover {
+    border: 10px solid lightsalmon;
+}
+
+/*
+ * AlbumThumbnailGrid
+ */
+
+AlbumThumbnail QLabel {
+    background-color: rgba(15, 15, 20, 0.95);
+    padding: 15px 10px;
+}
+
+AlbumThumbnail:hover {
+
+}
+
+AddAlbumThumbnail QLabel {
+    background-color: rgba(15, 15, 20, 0.95);
+    background-image: url(":/icons/icons/add-tab-32.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 15px 10px;
+}

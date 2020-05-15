@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/add-tab-32.png</file>
+    <file>icons/cancel-50.png</file>
+    <file>icons/chevron-left-32.png</file>
+    <file>icons/chevron-left-64.png</file>
+    <file>icons/chevron-right-32.png</file>
+    <file>icons/chevron-right-64.png</file>
+    <file>icons/edvard-munch-32.png</file>
+    <file>icons/four-squares-50.png</file>
+    <file>icons/full-image-32.png</file>
+    <file>icons/grip-vertical-50.png</file>
+    <file>icons/image-gallery-32.png</file>
+    <file>icons/menu-vertical-32.png</file>
+    <file>icons/opened-folder-50.png</file>
+    <file>icons/picture-50.png</file>
+    <file>icons/trash-32.png</file>
+    <file>icons/view-details-32.png</file>
+    <file>icons/zoom-in-32.png</file>
+  </qresource>
+</RCC>
